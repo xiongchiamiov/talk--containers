@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+# Containers 🥡
+
+---
+
+class: center, middle
+# What _is_ a container?
+
+---
+
+class: center, middle
+# containers == VMs
+## (kinda)
+
+---
+
+class: center, middle
+background-image: url(images/container-is-vm.png)
+background-size: contain
+
+[//]: # (https://mermaid.live/edit#pako:eNpNkMtuAyEMRX8FedVKUTfdzTp_kK5aqsoDnkfF2BRMqlGUfw_RlExZ3XN8ZQQXcOIJOhiC_LoJk5q3o2VTTy79mDBOxgkrzkxp8_8m5zlpwUB8biNj4qqT8M7L-hWT1P7yEtddJ_oplDXvxn8jj7JzLyqvDYl9i9sF6cPClszTIKnuw_Bs4bO1RuceMcz9AyQS5xw2_NsKB1goLTj7-hGXu7GgEy1koavR04AlqAXL11rFonJa2UGnqdABSvSodJzx_sYmI_K7SMUBQ6brDZGecN8)
+
+---
+
+class: center, middle
+# containers != VMs
+## &nbsp;
+
+---
+
+class: center, middle
+# containers != VMs
+## kernel level vs application layer
+
+---
+
+class: center, middle
+# Background
+## chroot
+
+---
+
+class: center, middle
+# Background
+## FreeBSD Jails, OpenVZ, Solaris Containers
+
+---
+
+class: center, middle
+# Background
+## LXC
+
+---
+
+class: center, middle
+# Docker
+
+---
+
+class: center, middle
+background-image: url(images/docker.png)
+background-size: contain
+
+---
+
+class: center, middle
+# Implications
+## &nbsp;
+
+---
+
+class: center, middle
+# Implications
+## You always use the underlying kernel
+
+---
+
+class: center, middle
+# Implications
+## Security
+
+---
+
+class: center, middle
+# Implications
+## Lightweight
+
+---
+
+class: center, middle
+# End / Questions
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
